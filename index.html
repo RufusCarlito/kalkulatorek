@@ -15,22 +15,22 @@
 
 
 <body>
-    <div class="main">
-        <div class="calculator" id="calculator">
-            <div class="wynik"><p id="SUM"></p></div>
-            <div class="pola">
+    <div class="calculator">
+        <div class="wynik"><p id="SUM"></p></div>
+        <div class="pola">
+        
+                <input type="number" id="obwod" placeholder="OBWÓD">
+                <input type="number" id="mniejsza wartosc" placeholder="Mniejsza Wartość CM">
+                <input type="number" id="wieksza wartosc centymetrow" placeholder="Większa wartość CM">
+                <input type="number" id="dolna granica lat" placeholder="Dolna granica lat">
+                <div id="sred"><p></p></div>
             
-                    <input type="number" id="obwod" placeholder="OBWÓD">
-                    <input type="number" id="mniejsza wartosc" placeholder="Mniejsza Wartość CM">
-                    <input type="number" id="wieksza wartosc centymetrow" placeholder="Większa wartość CM">
-                    <input type="number" id="dolna granica lat" placeholder="Dolna granica lat">
-                
-                <!-- <div class="dane">mniejsza wartość centymetrów</div>
-                <div class="dane">większa wartość centymetrów</div>
-                <div class="dane">interwał lat</div> -->
-            </div>
-            <input type="button" class="oblicz" onclick="Calculate()" value="OBLICZ">
+            <!-- <div class="dane">mniejsza wartość centymetrów</div>
+            <div class="dane">większa wartość centymetrów</div>
+            <div class="dane">interwał lat</div> -->
         </div>
+        <input type="button" class="oblicz" onclick="Calculate()" value="OBLICZ">
+        <input type="button" class="sredBtn" onclick="sred()" value="Srednica">
     </div>
 </body>
 <script src="script.js"></script>

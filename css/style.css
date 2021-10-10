@@ -3,27 +3,24 @@
     padding: 0;
     font-family: sans-serif;
 }
-.main{
-    background-color: bisque;
-    width: 300px;
-    margin-left: 20px;
-    height: 400px;
-}
 .calculator{
     background-color: black;
     width: 300px;
     height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 .wynik{
     background-color: cornflowerblue;
     color: black;
     width: 250px;
-    height: 30px;
+    height: 35px;
     font-size: 20px;
-    padding-top: 5%;
     text-align: center;
     margin-left: 25px;
-    top: 25px;
+    margin-top: 25px;
+    display: inline-block;
+    border-radius: 10px;
 }
 input{
     width: 160px;
@@ -41,9 +38,26 @@ form{
 .oblicz{
     height: 60px;
     width: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: darkgoldenrod;
     font-weight: bold;
     margin-left: 100px;
+    border-radius: 50%;
 }
-
+#sred{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(216, 105, 127);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 115px;
+    text-align: center;
+}
+.sred p{
+    display: inline;
+}
+.sredBtn{
+    background-color: rgb(216, 105, 127);
+    margin-top: 20px;
+    border-radius: 15px;
+}
